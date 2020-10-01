@@ -1,0 +1,29 @@
+
+#Homeproduct{
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    margin: 10px;
+    border: 16px;
+    background-color: deepskyblue;
+    padding: 15px 20px 10px 10px;
+}
+
+.CategoryContainer{
+    background-color: azure;
+    margin: 10px 10px 20px  15px;
+    border: 16px;
+    padding: 10px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+    bottom: 20px;
+}
+@media screen and (max-width: 500px){
+    #Homeproduct{
+        float:left;
+        bottom: 0px;
+        position: relative;
+    }
+}
